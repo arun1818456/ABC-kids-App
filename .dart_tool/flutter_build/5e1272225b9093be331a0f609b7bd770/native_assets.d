@@ -1,0 +1,1 @@
+ C:\\Users\\ACER\\StudioProjects\\abc_kids\\.dart_tool\\flutter_build\\5e1272225b9093be331a0f609b7bd770\\native_assets.yaml: 
