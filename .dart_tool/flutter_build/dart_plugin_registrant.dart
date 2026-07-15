@@ -3,7 +3,7 @@
 // This file is generated from template in file `flutter_tools/lib/src/flutter_plugins.dart`.
 //
 
-// @dart = 2.19
+// @dart = 3.0
 
 import 'dart:io'; // flutter_ignore: dart_io_import.
 import 'package:path_provider_android/path_provider_android.dart' as path_provider_android;
@@ -13,6 +13,7 @@ import 'package:video_player_avfoundation/video_player_avfoundation.dart' as vid
 import 'package:device_info_plus/device_info_plus.dart' as device_info_plus;
 import 'package:path_provider_linux/path_provider_linux.dart' as path_provider_linux;
 import 'package:path_provider_foundation/path_provider_foundation.dart' as path_provider_foundation;
+import 'package:video_player_avfoundation/video_player_avfoundation.dart' as video_player_avfoundation;
 import 'package:device_info_plus/device_info_plus.dart' as device_info_plus;
 import 'package:path_provider_windows/path_provider_windows.dart' as path_provider_windows;
 
@@ -84,6 +85,15 @@ class _PluginRegistrant {
       } catch (err) {
         print(
           '`path_provider_foundation` threw an error: $err. '
+          'The app may not function as expected until you remove this plugin from pubspec.yaml'
+        );
+      }
+
+      try {
+        video_player_avfoundation.AVFoundationVideoPlayer.registerWith();
+      } catch (err) {
+        print(
+          '`video_player_avfoundation` threw an error: $err. '
           'The app may not function as expected until you remove this plugin from pubspec.yaml'
         );
       }
