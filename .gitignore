@@ -1,45 +1,49 @@
-# This file tracks properties of this Flutter project.
-# Used by Flutter tool to assess capabilities and perform upgrades etc.
-#
-# This file should be version controlled.
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-version:
-  revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-  channel: stable
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-project_type: app
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# Tracks metadata for the flutter migrate command
-migration:
-  platforms:
-    - platform: root
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-    - platform: android
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-    - platform: ios
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-    - platform: linux
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-    - platform: macos
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-    - platform: web
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-    - platform: windows
-      create_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
-      base_revision: 4d9e56e694b656610ab87fcf2efbcd226e0ed8cf
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
 
-  # User provided section
+# Symbolication related
+app.*.symbols
 
-  # List of Local paths (relative to this file) that should be
-  # ignored by the migrate tool.
-  #
-  # Files that are not part of the templates will be ignored by default.
-  unmanaged_files:
-    - 'lib/main.dart'
-    - 'ios/Runner.xcodeproj/project.pbxproj'
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# FVM Version Cache
+.fvm/
