@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import '../Constants/app_data.dart';
+import '../../Constants/app_data.dart';
 class CapitalLetterCardPage extends StatefulWidget {
   const CapitalLetterCardPage({Key? key}) : super(key: key);
   static const route="capital-letter";

@@ -1,4 +1,4 @@
-import 'package:abc_kids/Screens/splash_screen.dart';
+import 'package:abc_kids/Screens/splash/splash_screen.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

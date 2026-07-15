@@ -1,7 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import '../Constants/app_data.dart';
-import '../Constants/color_style.dart';
+import '../../Constants/app_data.dart';
+import '../../Constants/color_style.dart';
 
 class FlashCardScreen extends StatefulWidget {
   static const route = "flash-card";

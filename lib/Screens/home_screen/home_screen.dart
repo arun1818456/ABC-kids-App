@@ -1,10 +1,10 @@
 import 'package:abc_kids/Constants/color_style.dart';
-import 'package:abc_kids/Screens/lower_letter.dart';
-import 'package:abc_kids/Screens/toch_play_quiz.dart';
+import 'package:abc_kids/Screens/lower_case/lower_letter.dart';
+import 'package:abc_kids/Screens/quiz/toch_play_quiz.dart';
 import 'package:flutter/material.dart';
-import 'capital_letter.dart';
-import 'dragndrop.dart';
-import 'flash_card.dart';
+import '../upper_case/capital_letter.dart';
+import '../match/dragndrop.dart';
+import '../flash_card/flash_card.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

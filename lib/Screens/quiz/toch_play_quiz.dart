@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vibration/vibration.dart';
-import '../Constants/app_data.dart';
-import '../Constants/color_style.dart';
+import '../../Constants/app_data.dart';
+import '../../Constants/color_style.dart';
 
 class TouchLetter extends StatefulWidget {
   const TouchLetter({super.key});
